@@ -442,8 +442,6 @@ function go(){
     if(i <= content.length){
         i+=2;
         document.getElementById("txt").innerHTML= str + "_";  //每次设置的x的值都不一样了。
-    } else {
-        location.hash="#ad-carousel";
     }
 }
 frame();
